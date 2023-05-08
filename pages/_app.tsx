@@ -25,3 +25,4 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   )
 }
+export const revalidate = 30; // revalidate this page every 60 seconds
