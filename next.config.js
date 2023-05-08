@@ -7,6 +7,10 @@ const withNextra = require('nextra')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // any configs you need
+    experimental: {
+      // Defaults to 50MB
+      isrMemoryCacheSize: 0,
+    }
 }
 
 module.exports = withNextra(nextConfig)
