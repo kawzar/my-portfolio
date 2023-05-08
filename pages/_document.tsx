@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Marlow Haspert',
     description: 'Marlow\'s personal website',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png',
+    image: 'https://i.ibb.co/jyH6nzS/3d-casual-life-woman-talking-with-chatbot.png',
   }
 
   return (
